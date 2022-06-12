@@ -6,7 +6,7 @@ function UpdateUser(){
         console.log(userName)
     }
     let userAge= ""
-    let userAgeEle = document.getElementById("userAge");
+    let userAgeEle = document.getElementById("userId");
     
     if(userNameEle ){
         userAge = userAgeEle.value

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Fields</title>
     <link href="https://unpkg.com/fundamental-styles" rel="stylesheet">
+    <link href='fundamental-styles.css' rel='stylesheet'>
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
@@ -14,9 +15,11 @@
           <h2 class="fd-title fd-title--h2" id="info"> Evora it Solutions</h2>
       </div>
       <div>
-        <input placeholder="user Name"  id="userName"/>
-        <input placeholder="age" id="userAge"/>
-        <button  onclick="UpdateUser()"> update</button>
+        <input placeholder="user Name" class="fd-input c_input" type="text"  id="userName"/>
+        <input placeholder="userId" class="fd-input c_input" type="number" id="userId"/>
+        <button class="fd-button fd-button--compact c_btn" onclick="UpdateUser()">
+          <span class="fd-button__text"> Popup </span>
+        </button>
       </div>
     </div>
     <script src="https://unpkg.com/fsm-shell"></script>

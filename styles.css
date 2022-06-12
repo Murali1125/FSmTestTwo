@@ -7,3 +7,12 @@
     flex-direction: row;
     align-items: center;
 }
+.c_btn{
+    background-color: #C0C0C0 !important;
+    margin: 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.c_input{
+    max-width: 300px !important;
+}
