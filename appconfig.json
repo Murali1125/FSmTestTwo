@@ -1,7 +1,7 @@
 {
-  "name": "Logo",
+  "name": "Input Fields",
   "provider": "FSM Demo",
-  "description": "Sample Extesion to add Logo",   
+  "description": "Sample Extesion to handle Input fields",   
   "version": "1.0.0", 
   "icon": "https://murali1125.github.io/FSmDemo2/evoraLogo.png"
 }
