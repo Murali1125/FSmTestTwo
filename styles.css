@@ -1,0 +1,9 @@
+.comapnyLogo{
+    width: 25px;
+    height: 25px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
