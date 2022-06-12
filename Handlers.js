@@ -9,8 +9,8 @@ function UpdateUser(){
     let userAgeEle = document.getElementById("userAge");
     
     if(userNameEle ){
-        userName = userAgeEle.value
+        userAge = userAgeEle.value
         console.log(userName)
     }
-    window.alert(`Welcome ${userName.value}, ${userAge.value}`)
+    window.alert(`Welcome ${userName}, ${userAge}`)
 }
