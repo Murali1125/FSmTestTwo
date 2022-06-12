@@ -7,9 +7,10 @@ function UpdateUser(){
     }
     let userAge= ""
     let userAgeEle = document.getElementById("userAge");
+    
     if(userNameEle ){
         userName = userAgeEle.value
         console.log(userName)
     }
-    window.alert(`Welcome ${userName}, ${userAge}`)
+    window.alert(`Welcome ${userName.value}, ${userAge.value}`)
 }
